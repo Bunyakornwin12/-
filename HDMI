@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  div.myhero {
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+  }
+  div.myhero div {
+    width: auto;
+    height: auto;
+  }
+</style>
+</head>
+<body>
+  <div class="myhero">
+    <div>
+      <img src="https://static.wikia.nocookie.net/kamenrider/images/d/d7/KRKa-Kabutorider.png/revision/latest?cb=20181225220608" width="100%" height="100%">
+    </div>
+
+    <div>
+      <img src="https://static.wikia.nocookie.net/kamenrider/images/6/67/KRO-OOOtatoba.png/revision/latest?cb=20201129160204" width="100%" height="100%">
+    </div>
+
+    <div>
+      <img src="https://static.wikia.nocookie.net/kamenrider/images/d/d9/KRGe-Geatsmagnumboost.png/revision/latest/scale-to-width-down/250?cb=20220904043330" width="100%" height="100%">
+    </div>
+  </div>
+  <div class="myhero">
+    <div>
+      <img src="https://static.wikia.nocookie.net/kamenrider/images/d/d9/KRGe-Geatsmagnumboost.png/revision/latest/scale-to-width-down/250?cb=20220904043330" width="100%" height="100%">
+    </div>
+
+    <div>
+      <img src="https://static.wikia.nocookie.net/kamenrider/images/d/d7/KRKa-Kabutorider.png/revision/latest?cb=20181225220608" width="100%" height="100%">
+    </div>
+
+    <div>
+      <img src="https://static.wikia.nocookie.net/kamenrider/images/6/67/KRO-OOOtatoba.png/revision/latest?cb=20201129160204" width="100%" height="100%">
+    </div>
+  </div>
+  <div class="myhero">
+    <div>
+      <img src="https://static.wikia.nocookie.net/kamenrider/images/6/67/KRO-OOOtatoba.png/revision/latest?cb=20201129160204" width="100%" height="100%">
+    </div>
+
+    <div>
+      <img src="https://static.wikia.nocookie.net/kamenrider/images/d/d9/KRGe-Geatsmagnumboost.png/revision/latest/scale-to-width-down/250?cb=20220904043330" width="100%" height="100%">
+    </div>
+
+    <div>
+      <img src="https://static.wikia.nocookie.net/kamenrider/images/d/d7/KRKa-Kabutorider.png/revision/latest?cb=20181225220608" width="100%" height="100%">
+    </div>
+  </div>
+</body>
+</html>
