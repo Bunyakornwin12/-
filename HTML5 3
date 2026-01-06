@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somsak Rakdee - Portfolio</title>
+    <style>
+        body { font-family: 'Arial', sans-serif; line-height: 1.6; margin: 0; padding: 0; scroll-behavior: smooth; }
+        header { background: #333; color: #fff; padding: 1rem; position: fixed; width: 100%; top: 0; z-index: 1000; }
+        nav ul { list-style: none; display: flex; justify-content: center; margin: 0; }
+        nav ul li { margin: 0 15px; }
+        nav ul li a { color: white; text-decoration: none; font-weight: bold; }
+        section { padding: 100px 20px; min-height: 80vh; border-bottom: 1px solid #ddd; }
+        .container { max-width: 1000px; margin: auto; }
+        .profile-img { width: 200px; border-radius: 50%; display: block; margin: 20px 0; }
+        .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; }
+        .gallery img { width: 100%; height: 200px; object-fit: cover; border-radius: 8px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #333; padding: 10px; text-align: center; }
+        th { background-color: #f4f4f4; }
+        footer { background: #333; color: white; text-align: center; padding: 20px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">ประวัติส่วนตัว</a></li>
+                <li><a href="#gallery">คลังรูปภาพ</a></li>
+                <li><a href="#contact">ติดต่อเรา</a></li>
+                <li><a href="#schedule">ตารางสอน</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>ประวัติส่วนตัว</h2>
+            <img src="https://drive.google.com/file/d/14RDVu-PKi8RGuwoeIAIP4DD-3qxK4Ztw/viสาขาคอมพิวเตอร์" alt="รูปนักเรียน" class="profile-img">
+            <p><strong>ชื่อ-นามสกุล:</strong> [นายบุณยกร เฉลิมพรวิทิต]</p>
+            
+            <h3>การศึกษา</h3>
+            <ul>
+                <li>จบชั้นประถมศึกษาปีที่ 6 จาก: [โรงเรียนสารสาสน์สุขสวัสดิ์]</li>
+                <li>จบชั้นมัธยมศึกษาปีที่ 3 จาก: [โรงเรียนบางปะกอกวิทยาคม]</li>
+                <li>ปัจจุบันกำลังศึกษาอยู่ที่: [โรงเรียนบางปะกอกวิทยาคม]</li>
+            </ul>
+
+            <h3>อาหารที่ชอบ</h3>
+            <ul>
+                <li>ส้มตำไทย</li>
+                <li>กะเพราไก่ไข่ดาว</li>
+                <li>ข้าวผัดปู</li>
+                <li>ต้มยำกุ้ง</li>
+            </ul>
+
+            <h3>สิ่งที่ไม่ชอบ</h3>
+            <ul>
+                <li>ความวุ่นวายและเสียงดัง</li>
+                <li>การโดนเอาเปรียบ</li>
+                <li>แมลงสาบ</li>
+            </ul>
+
+            <h3>ทำไมถึงเลือกเรียนสาขาเทคโนโลยี</h3>
+            <ul>
+                <li>มีความหลงใหลในนวัตกรรมและสิ่งประดิษฐ์ใหม่ๆ</li>
+                <li>เป็นสาขาวิชาที่มีความต้องการสูงในตลาดแรงงานอนาคต</li>
+                <li>ต้องการนำเทคโนโลยีมาแก้ปัญหาในชีวิตประจำวัน</li>
+            </ul>
+
+            <h3>ความรู้พื้นฐานเกี่ยวกับการพัฒนาเว็บ</h3>
+            <ul>
+                <li>โครงสร้างภาษา HTML สำหรับจัดวางเนื้อหา</li>
+                <li>การใช้ CSS เพื่อตกแต่งความสวยงามและ Layout</li>
+                <li>การออกแบบเว็บไซต์ให้รองรับหน้าจอมือถือ (Responsive Design)</li>
+            </ul>
+
+            <h3>คณะที่อยากเข้าศึกษาต่อ</h3>
+            <ul>
+                <li>คณะนิเทศศาสตร์</li>
+                <li>คณะเทคโนโลยีสารสนเทศ</li>
+                <li>คณะจิตวิทยา</li>
+                <li>คณะดิจิทัลมีเดีย</li>
+            </ul>
+        </section>src   <section id="gallery">
+            <h2>คลังรูปภาพ</h2>
+            <div class="gallery">
+                <img src="https://drive.google.com/file/d/1JQiEBSpvDHQbhGGffycmQAj9rThpwIDo/view?usp=drivesdk" alt="รูปที่ 1">
+                <img src="https://drive.google.com/file/d/1D5gNSKS48oP8Ar_1E8tyH8zRY7SEXGMa/view?usp=drivesdk" alt="รูปที่ 2">
+                <img src="https://drive.google.com/file/d/1WEGfeaaJXGKpgXPnjNEU6LwI0xWoT7t-/view?usp=drivesdk" alt="รูปที่ 3">
+                <img src="https://drive.google.com/file/d/1gri3ZpSGueXSoSdhmNOrBv7SShknpGZ2/view?usp=drivesdk" alt="รูปที่ 4">
+                <img src="https://drive.google.com/file/d/1JaayNxckGGS5wAQzdK5ZssPrPw8J3Ioz/view?usp=drivesdk" alt="รูปที่ 5">
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>ติดต่อเรา</h2>
+            <ul>
+                <li><a href="https://www.facebook.com/yourprofile" target="_blank">Facebook: [ชื่อเฟซบุ๊กของคุณ]</a></li>
+                <li><a href="https://www.instagram.com/yourprofile" target="_blank">Instagram: [ชื่อไอจีของคุณ]</a></li>
+                <li><a href="https://line.me/ti/p/~yourid" target="_blank">Line: [ไอดีไลน์ของคุณ]</a></li>
+            </ul>
+        </section>
+
+        <section id="schedule">
+            <h2>ตารางสอน</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>วัน / เวลา</th>
+                        <th>08:20-09:10</th>
+                        <th>09:10-10:00</th>
+                        <th>10:00-10:50</th>                   </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>จันทร์</td>
+                        <td>คณิตศาสตร์เพิ่มเติม</td>
+                        <td>แนะแนว</td>
+                        <td>เคมี</td>
+               </tr>
+                    <tr>
+                        <td>อังคาร</td>
+                        <td>คณิตศาสตร์พื้นฐาน</td>
+                        <td>ภาษาอังกฤษ</td>
+                        <td>เสรีภาษา</td>
+                    </tr>
+                    <tr>
+                        <td>พุธ</td>
+                        <td>ชีวะ</td>
+                        <td>ชีวะ</td>
+                        <td>ภาษาอังกฤษรอบรระบุชื่อโรงเรียน            </tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
+
+    <footer>
+        <p>ผู้พัฒนา: [นายบุณยกร เฉลิมพรวิทิต]</p>
+    </footer>
+
+</body>
+</html>
