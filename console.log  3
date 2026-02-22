@@ -1,0 +1,2 @@
+// ใช้ Template Literals เพื่อความง่ายในการจัดการช่องว่าง
+console.log(`${num1}${num2}  ${char1}${char2}  ${str1}`);
