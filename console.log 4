@@ -1,0 +1,3 @@
+console.log(num1 + "Hello");
+console.log(num2 + "Hello");
+console.log("Hello" + char1);
